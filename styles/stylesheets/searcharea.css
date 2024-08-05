@@ -1,10 +1,46 @@
 .search-area {
-    max-width: fit-content;
+    display: block;
     margin-left: auto;
     margin-right: auto;
+    margin: 300px;
 }
 
 .image-container {
     display: flex;
     flex-direction: column;
+}
+
+.image-container a {
+    margin: auto;
+}
+
+.search {
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+    min-width: 280px;
+    margin-bottom: 10px;
+}
+
+.search::placeholder {
+    color: black;
+}
+
+.search::placeholder:hover {
+    display: none;
+}
+
+.search:hover {
+    border-color: lightgray;
+    background-color: lightgray;
+}
+
+.search-bar {
+    display: block;
+    margin: auto;
+}
+
+.button {
+    margin-right: auto;
+    margin-left: auto;
 }
