@@ -1,9 +1,14 @@
-nav > ul {
+nav {
+    background-color: lightgray;
+    border-radius: 5px;
+}
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    
 }
 
 nav ul li {
@@ -16,7 +21,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: white;
+    color: black;
     display: block;
     padding: 8px;
     text-align: center;
@@ -25,5 +30,6 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    background: #111;
+    background: gray;
+    color: white;
 }
